@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Reflection.Emit;
 using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
@@ -22,12 +23,24 @@ namespace Platformer
         int score = 0; //default score = 0
         int playSpeed = 8; //set player's speed
         int backLeft = 8; //set background and objects moving speed to 8
-        
+
         /*by moving the background and objects surrounding the player
         we simulate the feeling of movement in the form*/
         public Form1()
         {
             InitializeComponent();
+        }
+
+
+        private int counter = 0;
+        private void Stopwatch_Tick(object sender, EventArgs e)
+        {
+            counter++;
+        }
+
+        private void StartStopwatch(object sender, EventArgs e)
+        {
+            Stopwatch.Start(); // Start the stopwatch
         }
 
         private void keyisdown(object sender, KeyEventArgs e)
@@ -164,16 +177,20 @@ namespace Platformer
             if (player.Bounds.IntersectsWith(door.Bounds) && hasKey)
             {
                 GameTimer.Stop();
-                MessageBox.Show("You've completed the level!");
+                Stopwatch.Stop();
+                MessageBox.Show($"You've completed the level! \nTime: {counter}");
+
                 Environment.Exit(0);
             }
 
             if (player.Top + player.Height > this.ClientSize.Height + 60)
             {
                 GameTimer.Stop();
-                MessageBox.Show("You've died!");
+                Stopwatch.Stop();
+                MessageBox.Show($"You died \nTime: {counter}");
                 Environment.Exit(0);
             }
         }
+
     }
 }

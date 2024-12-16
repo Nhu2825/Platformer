@@ -93,6 +93,8 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.player = new System.Windows.Forms.PictureBox();
             this.background = new System.Windows.Forms.PictureBox();
+            this.StopwatchDisplay = new System.Windows.Forms.Label();
+            this.Stopwatch = new System.Windows.Forms.Timer(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.door)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox63)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.key)).BeginInit();
@@ -1020,11 +1022,27 @@
             this.background.TabStop = false;
             this.background.Tag = "background";
             // 
+            // StopwatchDisplay
+            // 
+            this.StopwatchDisplay.AutoSize = true;
+            this.StopwatchDisplay.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.StopwatchDisplay.Location = new System.Drawing.Point(566, 0);
+            this.StopwatchDisplay.Name = "StopwatchDisplay";
+            this.StopwatchDisplay.Size = new System.Drawing.Size(0, 20);
+            this.StopwatchDisplay.TabIndex = 139;
+            // 
+            // Stopwatch
+            // 
+            this.Stopwatch.Enabled = true;
+            this.Stopwatch.Interval = 1000;
+            this.Stopwatch.Tick += new System.EventHandler(this.Stopwatch_Tick);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(548, 484);
+            this.ClientSize = new System.Drawing.Size(618, 484);
+            this.Controls.Add(this.StopwatchDisplay);
             this.Controls.Add(this.door);
             this.Controls.Add(this.pictureBox63);
             this.Controls.Add(this.key);
@@ -1229,6 +1247,8 @@
         public System.Windows.Forms.PictureBox pictureBox62;
         public System.Windows.Forms.PictureBox pictureBox63;
         private System.Windows.Forms.PictureBox door;
+        private System.Windows.Forms.Label StopwatchDisplay;
+        private System.Windows.Forms.Timer Stopwatch;
     }
 }
 

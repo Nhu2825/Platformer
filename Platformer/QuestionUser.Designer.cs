@@ -64,10 +64,9 @@
             this.rad_A.Font = new System.Drawing.Font("Sitka Small", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rad_A.Location = new System.Drawing.Point(12, 163);
             this.rad_A.Name = "rad_A";
-            this.rad_A.Size = new System.Drawing.Size(170, 33);
+            this.rad_A.Size = new System.Drawing.Size(21, 20);
             this.rad_A.TabIndex = 2;
             this.rad_A.TabStop = true;
-            this.rad_A.Text = "radioButton1";
             this.rad_A.UseVisualStyleBackColor = false;
             // 
             // rad_B
@@ -77,10 +76,9 @@
             this.rad_B.Font = new System.Drawing.Font("Sitka Small", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rad_B.Location = new System.Drawing.Point(9, 239);
             this.rad_B.Name = "rad_B";
-            this.rad_B.Size = new System.Drawing.Size(172, 33);
+            this.rad_B.Size = new System.Drawing.Size(21, 20);
             this.rad_B.TabIndex = 3;
             this.rad_B.TabStop = true;
-            this.rad_B.Text = "radioButton2";
             this.rad_B.UseVisualStyleBackColor = false;
             // 
             // rad_C
@@ -90,10 +88,9 @@
             this.rad_C.Font = new System.Drawing.Font("Sitka Small", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rad_C.Location = new System.Drawing.Point(10, 312);
             this.rad_C.Name = "rad_C";
-            this.rad_C.Size = new System.Drawing.Size(172, 33);
+            this.rad_C.Size = new System.Drawing.Size(21, 20);
             this.rad_C.TabIndex = 4;
             this.rad_C.TabStop = true;
-            this.rad_C.Text = "radioButton3";
             this.rad_C.UseVisualStyleBackColor = false;
             // 
             // rad_D
@@ -103,10 +100,9 @@
             this.rad_D.Font = new System.Drawing.Font("Sitka Small", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rad_D.Location = new System.Drawing.Point(9, 385);
             this.rad_D.Name = "rad_D";
-            this.rad_D.Size = new System.Drawing.Size(173, 33);
+            this.rad_D.Size = new System.Drawing.Size(21, 20);
             this.rad_D.TabIndex = 5;
             this.rad_D.TabStop = true;
-            this.rad_D.Text = "radioButton4";
             this.rad_D.UseVisualStyleBackColor = false;
             // 
             // QuestionUser
