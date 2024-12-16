@@ -33,7 +33,6 @@ namespace Platformer
         private void PressStart(object sender, EventArgs e)
         {
             //Platformer.x = new User(Convert.ToInt32(cmb_Name.Text), Convert.ToInt32(cmb_Subject.Text));
-
             Form1 frm = new Form1();
             this.Hide();
             frm.ShowDialog();

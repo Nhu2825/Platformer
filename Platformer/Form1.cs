@@ -9,6 +9,7 @@ using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
 
 namespace Platformer
 {
@@ -31,18 +32,35 @@ namespace Platformer
             InitializeComponent();
         }
 
+        private void SavePlayerScore(string playerName, int score)
+        {
+            string filePath = "PlayerScores.txt";
+            string line = $"{playerName},{score}";
 
+            try
+            {
+                // Append the line to the text file
+                File.AppendAllText(filePath, line + Environment.NewLine);
+                MessageBox.Show("Score saved successfully!");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error saving score: " + ex.Message);
+            }
+        }
+
+        //Code for stopwatch
         private int counter = 0;
         private void Stopwatch_Tick(object sender, EventArgs e)
         {
             counter++;
         }
-
         private void StartStopwatch(object sender, EventArgs e)
         {
             Stopwatch.Start(); // Start the stopwatch
         }
 
+        //Code for setting keys
         private void keyisdown(object sender, KeyEventArgs e)
         {
 
@@ -100,6 +118,7 @@ namespace Platformer
             {
                 jumpSpeed = 12;
             }
+
 
             //moving right by adding to player.Left
             if (goright && player.Left + (player.Width + 100) < this.ClientSize.Width)
@@ -168,6 +187,9 @@ namespace Platformer
                 }
             }
 
+            //Ending the game
+            Menu menu = new Menu();
+
             if (player.Bounds.IntersectsWith(key.Bounds))
             {
                 this.Controls.Remove(key);
@@ -178,17 +200,18 @@ namespace Platformer
             {
                 GameTimer.Stop();
                 Stopwatch.Stop();
-                MessageBox.Show($"You've completed the level! \nTime: {counter}");
-
-                Environment.Exit(0);
+                MessageBox.Show($"You've completed the level! \nScore: {score} \nTime: {counter}");
+                this.Hide();
+                menu.ShowDialog();
             }
 
             if (player.Top + player.Height > this.ClientSize.Height + 60)
             {
                 GameTimer.Stop();
                 Stopwatch.Stop();
-                MessageBox.Show($"You died \nTime: {counter}");
-                Environment.Exit(0);
+                MessageBox.Show($"You died \nScore: {score} \nTime: {counter}");
+                this.Hide();
+                menu.ShowDialog();
             }
         }
 

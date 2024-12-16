@@ -197,7 +197,7 @@
             this.key.Margin = new System.Windows.Forms.Padding(0);
             this.key.Name = "key";
             this.key.Size = new System.Drawing.Size(24, 24);
-            this.key.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.key.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.key.TabIndex = 136;
             this.key.TabStop = false;
             this.key.Tag = "key";
