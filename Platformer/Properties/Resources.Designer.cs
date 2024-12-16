@@ -83,9 +83,29 @@ namespace Platformer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _1006406251 {
+            get {
+                object obj = ResourceManager.GetObject("1006406251", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap background_1 {
             get {
                 object obj = ResourceManager.GetObject("background 1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap background_11 {
+            get {
+                object obj = ResourceManager.GetObject("background 11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

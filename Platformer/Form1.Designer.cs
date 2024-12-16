@@ -1011,7 +1011,7 @@
             // background
             // 
             this.background.Image = global::Platformer.Properties.Resources.background_1;
-            this.background.Location = new System.Drawing.Point(0, 0);
+            this.background.Location = new System.Drawing.Point(-200, 0);
             this.background.Margin = new System.Windows.Forms.Padding(0);
             this.background.Name = "background";
             this.background.Size = new System.Drawing.Size(1920, 500);
