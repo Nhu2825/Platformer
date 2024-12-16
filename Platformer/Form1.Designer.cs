@@ -999,7 +999,7 @@
             // player
             // 
             this.player.Image = global::Platformer.Properties.Resources.stand11;
-            this.player.Location = new System.Drawing.Point(0, 369);
+            this.player.Location = new System.Drawing.Point(18, 369);
             this.player.Margin = new System.Windows.Forms.Padding(0);
             this.player.Name = "player";
             this.player.Size = new System.Drawing.Size(30, 69);
@@ -1024,7 +1024,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1566, 484);
+            this.ClientSize = new System.Drawing.Size(548, 484);
             this.Controls.Add(this.door);
             this.Controls.Add(this.pictureBox63);
             this.Controls.Add(this.key);
@@ -1090,8 +1090,8 @@
             this.Controls.Add(this.background);
             this.Name = "Form1";
             this.Text = "Form1";
-            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.keyisleft);
-            this.KeyUp += new System.Windows.Forms.KeyEventHandler(this.keyisright);
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.keyisdown);
+            this.KeyUp += new System.Windows.Forms.KeyEventHandler(this.keyisup);
             ((System.ComponentModel.ISupportInitialize)(this.door)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox63)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.key)).EndInit();
