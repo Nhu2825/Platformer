@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.Configuration;
 using System.Data;
 using System.Drawing;
 using System.Drawing.Drawing2D;
@@ -32,7 +33,12 @@ namespace Platformer
 
         private void PressStart(object sender, EventArgs e)
         {
-            //Platformer.x = new User(Convert.ToInt32(cmb_Name.Text), Convert.ToInt32(cmb_Subject.Text));
+            if (string.IsNullOrEmpty(cmb_Name.Text) || string.IsNullOrEmpty(cmb_Subject.Text))
+            {
+                MessageBox.Show("Please input name and subject.");
+                    return;
+            }   
+
             Form1 frm = new Form1();
             this.Hide();
             frm.ShowDialog();

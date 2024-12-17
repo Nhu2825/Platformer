@@ -32,22 +32,8 @@ namespace Platformer
             InitializeComponent();
         }
 
-        private void SavePlayerScore(string playerName, int score)
-        {
-            string filePath = "PlayerScores.txt";
-            string line = $"{playerName},{score}";
-
-            try
-            {
-                // Append the line to the text file
-                File.AppendAllText(filePath, line + Environment.NewLine);
-                MessageBox.Show("Score saved successfully!");
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show("Error saving score: " + ex.Message);
-            }
-        }
+        //player has 3 lives
+        private int life = 3;
 
         //Code for stopwatch
         private int counter = 0;
@@ -190,12 +176,14 @@ namespace Platformer
             //Ending the game
             Menu menu = new Menu();
 
+            //Collecting key
             if (player.Bounds.IntersectsWith(key.Bounds))
             {
                 this.Controls.Remove(key);
                 hasKey = true;
             }
 
+            //Winning scenario
             if (player.Bounds.IntersectsWith(door.Bounds) && hasKey)
             {
                 GameTimer.Stop();
@@ -205,7 +193,8 @@ namespace Platformer
                 menu.ShowDialog();
             }
 
-            if (player.Top + player.Height > this.ClientSize.Height + 60)
+            //Death scenario
+            if (player.Top + player.Height > this.ClientSize.Height)
             {
                 GameTimer.Stop();
                 Stopwatch.Stop();
@@ -214,6 +203,5 @@ namespace Platformer
                 menu.ShowDialog();
             }
         }
-
     }
 }

@@ -13,12 +13,14 @@ namespace Platformer
         public string Subject { get; set; }
         public int Score { get; set; }
         public int Lives { get; set; }
+        public int time {  get; set; }
         public void Users(string NameUser, string Subject)
         {
             this.NameUser = NameUser;
             this.Subject = Subject;
             this.Score = 0;
             this.Lives = 3;
+            this.time = 0;
         }
     }
 }

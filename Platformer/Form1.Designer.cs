@@ -30,6 +30,9 @@
         {
             this.components = new System.ComponentModel.Container();
             this.GameTimer = new System.Windows.Forms.Timer(this.components);
+            this.StopwatchDisplay = new System.Windows.Forms.Label();
+            this.Stopwatch = new System.Windows.Forms.Timer(this.components);
+            this.heart3 = new System.Windows.Forms.PictureBox();
             this.door = new System.Windows.Forms.PictureBox();
             this.pictureBox63 = new System.Windows.Forms.PictureBox();
             this.key = new System.Windows.Forms.PictureBox();
@@ -93,8 +96,9 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.player = new System.Windows.Forms.PictureBox();
             this.background = new System.Windows.Forms.PictureBox();
-            this.StopwatchDisplay = new System.Windows.Forms.Label();
-            this.Stopwatch = new System.Windows.Forms.Timer(this.components);
+            this.heart2 = new System.Windows.Forms.PictureBox();
+            this.heart1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.heart3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.door)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox63)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.key)).BeginInit();
@@ -158,6 +162,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.player)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.background)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.heart2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.heart1)).BeginInit();
             this.SuspendLayout();
             // 
             // GameTimer
@@ -165,6 +171,33 @@
             this.GameTimer.Enabled = true;
             this.GameTimer.Interval = 20;
             this.GameTimer.Tick += new System.EventHandler(this.mainGameTimer);
+            // 
+            // StopwatchDisplay
+            // 
+            this.StopwatchDisplay.AutoSize = true;
+            this.StopwatchDisplay.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.StopwatchDisplay.Location = new System.Drawing.Point(566, 0);
+            this.StopwatchDisplay.Name = "StopwatchDisplay";
+            this.StopwatchDisplay.Size = new System.Drawing.Size(0, 20);
+            this.StopwatchDisplay.TabIndex = 139;
+            // 
+            // Stopwatch
+            // 
+            this.Stopwatch.Enabled = true;
+            this.Stopwatch.Interval = 1000;
+            this.Stopwatch.Tick += new System.EventHandler(this.Stopwatch_Tick);
+            // 
+            // heart3
+            // 
+            this.heart3.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.heart3.Image = global::Platformer.Properties.Resources.life;
+            this.heart3.Location = new System.Drawing.Point(581, 12);
+            this.heart3.Name = "heart3";
+            this.heart3.Size = new System.Drawing.Size(25, 25);
+            this.heart3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.heart3.TabIndex = 140;
+            this.heart3.TabStop = false;
+            this.heart3.Tag = "heart";
             // 
             // door
             // 
@@ -1022,26 +1055,38 @@
             this.background.TabStop = false;
             this.background.Tag = "background";
             // 
-            // StopwatchDisplay
+            // heart2
             // 
-            this.StopwatchDisplay.AutoSize = true;
-            this.StopwatchDisplay.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.StopwatchDisplay.Location = new System.Drawing.Point(566, 0);
-            this.StopwatchDisplay.Name = "StopwatchDisplay";
-            this.StopwatchDisplay.Size = new System.Drawing.Size(0, 20);
-            this.StopwatchDisplay.TabIndex = 139;
+            this.heart2.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.heart2.Image = global::Platformer.Properties.Resources.life;
+            this.heart2.Location = new System.Drawing.Point(550, 12);
+            this.heart2.Name = "heart2";
+            this.heart2.Size = new System.Drawing.Size(25, 25);
+            this.heart2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.heart2.TabIndex = 141;
+            this.heart2.TabStop = false;
+            this.heart2.Tag = "heart";
             // 
-            // Stopwatch
+            // heart1
             // 
-            this.Stopwatch.Enabled = true;
-            this.Stopwatch.Interval = 1000;
-            this.Stopwatch.Tick += new System.EventHandler(this.Stopwatch_Tick);
+            this.heart1.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.heart1.Image = global::Platformer.Properties.Resources.life;
+            this.heart1.Location = new System.Drawing.Point(519, 12);
+            this.heart1.Name = "heart1";
+            this.heart1.Size = new System.Drawing.Size(25, 25);
+            this.heart1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.heart1.TabIndex = 142;
+            this.heart1.TabStop = false;
+            this.heart1.Tag = "heart";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(618, 484);
+            this.Controls.Add(this.heart1);
+            this.Controls.Add(this.heart2);
+            this.Controls.Add(this.heart3);
             this.Controls.Add(this.StopwatchDisplay);
             this.Controls.Add(this.door);
             this.Controls.Add(this.pictureBox63);
@@ -1110,6 +1155,7 @@
             this.Text = "Form1";
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.keyisdown);
             this.KeyUp += new System.Windows.Forms.KeyEventHandler(this.keyisup);
+            ((System.ComponentModel.ISupportInitialize)(this.heart3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.door)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox63)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.key)).EndInit();
@@ -1173,6 +1219,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.player)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.background)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.heart2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.heart1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1249,6 +1297,9 @@
         private System.Windows.Forms.PictureBox door;
         private System.Windows.Forms.Label StopwatchDisplay;
         private System.Windows.Forms.Timer Stopwatch;
+        private System.Windows.Forms.PictureBox heart3;
+        private System.Windows.Forms.PictureBox heart2;
+        private System.Windows.Forms.PictureBox heart1;
     }
 }
 
