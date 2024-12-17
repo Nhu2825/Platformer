@@ -29,21 +29,26 @@ namespace Platformer
             rad_C.Text = list[i].DA3;
             rad_D.Text = list[i].DA4;
         }
-        /*private void button1_Click(object sender, EventArgs e)
+
+        private void QuestionUser_Paint(object sender, PaintEventArgs e)
         {
-            if ((rad_A.Checked & list[i].DA == "A") ||
-                (rad_B.Checked & list[i].DA == "B") ||
-                (rad_C.Checked & list[i].DA == "C") ||
-                (rad_D.Checked & list[i].DA == "D"))
-            {
-                Mario.x.Score++;
-                
-            }
-            else
-            {
-                Mario.x.Lives--;
-            }
-            this.Close();
-        }*/
+            e.Graphics.DrawImage(Properties.Resources.background, 0, 0);
+        }
+        /*private void button1_Click(object sender, EventArgs e)
+{
+   if ((rad_A.Checked & list[i].DA == "A") ||
+       (rad_B.Checked & list[i].DA == "B") ||
+       (rad_C.Checked & list[i].DA == "C") ||
+       (rad_D.Checked & list[i].DA == "D"))
+   {
+       Mario.x.Score++;
+
+   }
+   else
+   {
+       Mario.x.Lives--;
+   }
+   this.Close();
+}*/
     }
 }

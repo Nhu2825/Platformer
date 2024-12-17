@@ -28,32 +28,20 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.QuestionBackground = new System.Windows.Forms.PictureBox();
             this.QuestionHere = new System.Windows.Forms.Label();
             this.rad_A = new System.Windows.Forms.RadioButton();
             this.rad_B = new System.Windows.Forms.RadioButton();
             this.rad_C = new System.Windows.Forms.RadioButton();
             this.rad_D = new System.Windows.Forms.RadioButton();
-            ((System.ComponentModel.ISupportInitialize)(this.QuestionBackground)).BeginInit();
             this.SuspendLayout();
-            // 
-            // QuestionBackground
-            // 
-            this.QuestionBackground.Image = global::Platformer.Properties.Resources.background_11;
-            this.QuestionBackground.Location = new System.Drawing.Point(0, 0);
-            this.QuestionBackground.Name = "QuestionBackground";
-            this.QuestionBackground.Size = new System.Drawing.Size(640, 540);
-            this.QuestionBackground.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.QuestionBackground.TabIndex = 0;
-            this.QuestionBackground.TabStop = false;
             // 
             // QuestionHere
             // 
             this.QuestionHere.BackColor = System.Drawing.Color.Transparent;
             this.QuestionHere.Font = new System.Drawing.Font("Sitka Small", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.QuestionHere.Location = new System.Drawing.Point(12, 9);
+            this.QuestionHere.Location = new System.Drawing.Point(11, 7);
             this.QuestionHere.Name = "QuestionHere";
-            this.QuestionHere.Size = new System.Drawing.Size(594, 116);
+            this.QuestionHere.Size = new System.Drawing.Size(528, 93);
             this.QuestionHere.TabIndex = 1;
             this.QuestionHere.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -62,9 +50,10 @@
             this.rad_A.AutoSize = true;
             this.rad_A.BackColor = System.Drawing.Color.Transparent;
             this.rad_A.Font = new System.Drawing.Font("Sitka Small", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rad_A.Location = new System.Drawing.Point(12, 163);
+            this.rad_A.Location = new System.Drawing.Point(11, 130);
+            this.rad_A.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.rad_A.Name = "rad_A";
-            this.rad_A.Size = new System.Drawing.Size(21, 20);
+            this.rad_A.Size = new System.Drawing.Size(17, 16);
             this.rad_A.TabIndex = 2;
             this.rad_A.TabStop = true;
             this.rad_A.UseVisualStyleBackColor = false;
@@ -74,9 +63,10 @@
             this.rad_B.AutoSize = true;
             this.rad_B.BackColor = System.Drawing.Color.Transparent;
             this.rad_B.Font = new System.Drawing.Font("Sitka Small", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rad_B.Location = new System.Drawing.Point(9, 239);
+            this.rad_B.Location = new System.Drawing.Point(8, 191);
+            this.rad_B.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.rad_B.Name = "rad_B";
-            this.rad_B.Size = new System.Drawing.Size(21, 20);
+            this.rad_B.Size = new System.Drawing.Size(17, 16);
             this.rad_B.TabIndex = 3;
             this.rad_B.TabStop = true;
             this.rad_B.UseVisualStyleBackColor = false;
@@ -86,9 +76,10 @@
             this.rad_C.AutoSize = true;
             this.rad_C.BackColor = System.Drawing.Color.Transparent;
             this.rad_C.Font = new System.Drawing.Font("Sitka Small", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rad_C.Location = new System.Drawing.Point(10, 312);
+            this.rad_C.Location = new System.Drawing.Point(9, 250);
+            this.rad_C.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.rad_C.Name = "rad_C";
-            this.rad_C.Size = new System.Drawing.Size(21, 20);
+            this.rad_C.Size = new System.Drawing.Size(17, 16);
             this.rad_C.TabIndex = 4;
             this.rad_C.TabStop = true;
             this.rad_C.UseVisualStyleBackColor = false;
@@ -98,35 +89,34 @@
             this.rad_D.AutoSize = true;
             this.rad_D.BackColor = System.Drawing.Color.Transparent;
             this.rad_D.Font = new System.Drawing.Font("Sitka Small", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rad_D.Location = new System.Drawing.Point(9, 385);
+            this.rad_D.Location = new System.Drawing.Point(8, 308);
+            this.rad_D.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.rad_D.Name = "rad_D";
-            this.rad_D.Size = new System.Drawing.Size(21, 20);
+            this.rad_D.Size = new System.Drawing.Size(17, 16);
             this.rad_D.TabIndex = 5;
             this.rad_D.TabStop = true;
             this.rad_D.UseVisualStyleBackColor = false;
             // 
             // QuestionUser
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(618, 484);
+            this.ClientSize = new System.Drawing.Size(549, 387);
             this.Controls.Add(this.rad_D);
             this.Controls.Add(this.rad_C);
             this.Controls.Add(this.rad_B);
             this.Controls.Add(this.rad_A);
             this.Controls.Add(this.QuestionHere);
-            this.Controls.Add(this.QuestionBackground);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "QuestionUser";
             this.Text = "QuestionUser";
-            ((System.ComponentModel.ISupportInitialize)(this.QuestionBackground)).EndInit();
+            this.Paint += new System.Windows.Forms.PaintEventHandler(this.QuestionUser_Paint);
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.PictureBox QuestionBackground;
         private System.Windows.Forms.Label QuestionHere;
         private System.Windows.Forms.RadioButton rad_A;
         private System.Windows.Forms.RadioButton rad_B;

@@ -176,9 +176,9 @@
             // 
             this.StopwatchDisplay.AutoSize = true;
             this.StopwatchDisplay.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.StopwatchDisplay.Location = new System.Drawing.Point(566, 0);
+            this.StopwatchDisplay.Location = new System.Drawing.Point(503, 0);
             this.StopwatchDisplay.Name = "StopwatchDisplay";
-            this.StopwatchDisplay.Size = new System.Drawing.Size(0, 20);
+            this.StopwatchDisplay.Size = new System.Drawing.Size(0, 16);
             this.StopwatchDisplay.TabIndex = 139;
             // 
             // Stopwatch
@@ -191,9 +191,10 @@
             // 
             this.heart3.BackColor = System.Drawing.Color.LightSkyBlue;
             this.heart3.Image = global::Platformer.Properties.Resources.life;
-            this.heart3.Location = new System.Drawing.Point(581, 12);
+            this.heart3.Location = new System.Drawing.Point(516, 10);
+            this.heart3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.heart3.Name = "heart3";
-            this.heart3.Size = new System.Drawing.Size(25, 25);
+            this.heart3.Size = new System.Drawing.Size(22, 20);
             this.heart3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.heart3.TabIndex = 140;
             this.heart3.TabStop = false;
@@ -201,11 +202,12 @@
             // 
             // door
             // 
+            this.door.BackColor = System.Drawing.Color.Transparent;
             this.door.Image = global::Platformer.Properties.Resources.chill_guy;
-            this.door.Location = new System.Drawing.Point(9, 14);
+            this.door.Location = new System.Drawing.Point(8, 11);
             this.door.Margin = new System.Windows.Forms.Padding(0);
             this.door.Name = "door";
-            this.door.Size = new System.Drawing.Size(100, 100);
+            this.door.Size = new System.Drawing.Size(89, 80);
             this.door.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.door.TabIndex = 138;
             this.door.TabStop = false;
@@ -214,10 +216,10 @@
             // pictureBox63
             // 
             this.pictureBox63.Image = global::Platformer.Properties.Resources.coin;
-            this.pictureBox63.Location = new System.Drawing.Point(1234, 410);
+            this.pictureBox63.Location = new System.Drawing.Point(1097, 328);
             this.pictureBox63.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox63.Name = "pictureBox63";
-            this.pictureBox63.Size = new System.Drawing.Size(35, 30);
+            this.pictureBox63.Size = new System.Drawing.Size(31, 24);
             this.pictureBox63.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox63.TabIndex = 137;
             this.pictureBox63.TabStop = false;
@@ -226,10 +228,10 @@
             // key
             // 
             this.key.Image = global::Platformer.Properties.Resources._01;
-            this.key.Location = new System.Drawing.Point(1365, 84);
+            this.key.Location = new System.Drawing.Point(1213, 67);
             this.key.Margin = new System.Windows.Forms.Padding(0);
             this.key.Name = "key";
-            this.key.Size = new System.Drawing.Size(24, 24);
+            this.key.Size = new System.Drawing.Size(21, 19);
             this.key.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.key.TabIndex = 136;
             this.key.TabStop = false;
@@ -238,12 +240,12 @@
             // pictureBox59
             // 
             this.pictureBox59.Image = global::Platformer.Properties.Resources.Grass;
-            this.pictureBox59.Location = new System.Drawing.Point(1221, 438);
+            this.pictureBox59.Location = new System.Drawing.Point(1085, 350);
             this.pictureBox59.Margin = new System.Windows.Forms.Padding(0);
-            this.pictureBox59.MaximumSize = new System.Drawing.Size(48, 48);
-            this.pictureBox59.MinimumSize = new System.Drawing.Size(48, 48);
+            this.pictureBox59.MaximumSize = new System.Drawing.Size(43, 38);
+            this.pictureBox59.MinimumSize = new System.Drawing.Size(43, 38);
             this.pictureBox59.Name = "pictureBox59";
-            this.pictureBox59.Size = new System.Drawing.Size(48, 48);
+            this.pictureBox59.Size = new System.Drawing.Size(43, 38);
             this.pictureBox59.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox59.TabIndex = 135;
             this.pictureBox59.TabStop = false;
@@ -252,12 +254,12 @@
             // pictureBox58
             // 
             this.pictureBox58.Image = global::Platformer.Properties.Resources.Grass;
-            this.pictureBox58.Location = new System.Drawing.Point(1269, 438);
+            this.pictureBox58.Location = new System.Drawing.Point(1128, 350);
             this.pictureBox58.Margin = new System.Windows.Forms.Padding(0);
-            this.pictureBox58.MaximumSize = new System.Drawing.Size(48, 48);
-            this.pictureBox58.MinimumSize = new System.Drawing.Size(48, 48);
+            this.pictureBox58.MaximumSize = new System.Drawing.Size(43, 38);
+            this.pictureBox58.MinimumSize = new System.Drawing.Size(43, 38);
             this.pictureBox58.Name = "pictureBox58";
-            this.pictureBox58.Size = new System.Drawing.Size(48, 48);
+            this.pictureBox58.Size = new System.Drawing.Size(43, 38);
             this.pictureBox58.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox58.TabIndex = 134;
             this.pictureBox58.TabStop = false;
@@ -266,12 +268,12 @@
             // pictureBox57
             // 
             this.pictureBox57.Image = global::Platformer.Properties.Resources.Grass;
-            this.pictureBox57.Location = new System.Drawing.Point(1365, 114);
+            this.pictureBox57.Location = new System.Drawing.Point(1213, 91);
             this.pictureBox57.Margin = new System.Windows.Forms.Padding(0);
-            this.pictureBox57.MaximumSize = new System.Drawing.Size(48, 48);
-            this.pictureBox57.MinimumSize = new System.Drawing.Size(48, 48);
+            this.pictureBox57.MaximumSize = new System.Drawing.Size(43, 38);
+            this.pictureBox57.MinimumSize = new System.Drawing.Size(43, 38);
             this.pictureBox57.Name = "pictureBox57";
-            this.pictureBox57.Size = new System.Drawing.Size(48, 48);
+            this.pictureBox57.Size = new System.Drawing.Size(43, 38);
             this.pictureBox57.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox57.TabIndex = 133;
             this.pictureBox57.TabStop = false;
@@ -280,12 +282,12 @@
             // pictureBox56
             // 
             this.pictureBox56.Image = global::Platformer.Properties.Resources.Grass;
-            this.pictureBox56.Location = new System.Drawing.Point(1317, 114);
+            this.pictureBox56.Location = new System.Drawing.Point(1171, 91);
             this.pictureBox56.Margin = new System.Windows.Forms.Padding(0);
-            this.pictureBox56.MaximumSize = new System.Drawing.Size(48, 48);
-            this.pictureBox56.MinimumSize = new System.Drawing.Size(48, 48);
+            this.pictureBox56.MaximumSize = new System.Drawing.Size(43, 38);
+            this.pictureBox56.MinimumSize = new System.Drawing.Size(43, 38);
             this.pictureBox56.Name = "pictureBox56";
-            this.pictureBox56.Size = new System.Drawing.Size(48, 48);
+            this.pictureBox56.Size = new System.Drawing.Size(43, 38);
             this.pictureBox56.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox56.TabIndex = 132;
             this.pictureBox56.TabStop = false;
@@ -294,12 +296,12 @@
             // pictureBox55
             // 
             this.pictureBox55.Image = global::Platformer.Properties.Resources.Grass;
-            this.pictureBox55.Location = new System.Drawing.Point(1269, 162);
+            this.pictureBox55.Location = new System.Drawing.Point(1128, 130);
             this.pictureBox55.Margin = new System.Windows.Forms.Padding(0);
-            this.pictureBox55.MaximumSize = new System.Drawing.Size(48, 48);
-            this.pictureBox55.MinimumSize = new System.Drawing.Size(48, 48);
+            this.pictureBox55.MaximumSize = new System.Drawing.Size(43, 38);
+            this.pictureBox55.MinimumSize = new System.Drawing.Size(43, 38);
             this.pictureBox55.Name = "pictureBox55";
-            this.pictureBox55.Size = new System.Drawing.Size(48, 48);
+            this.pictureBox55.Size = new System.Drawing.Size(43, 38);
             this.pictureBox55.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox55.TabIndex = 131;
             this.pictureBox55.TabStop = false;
@@ -308,12 +310,12 @@
             // pictureBox54
             // 
             this.pictureBox54.Image = global::Platformer.Properties.Resources.Grass;
-            this.pictureBox54.Location = new System.Drawing.Point(1221, 114);
+            this.pictureBox54.Location = new System.Drawing.Point(1085, 91);
             this.pictureBox54.Margin = new System.Windows.Forms.Padding(0);
-            this.pictureBox54.MaximumSize = new System.Drawing.Size(48, 48);
-            this.pictureBox54.MinimumSize = new System.Drawing.Size(48, 48);
+            this.pictureBox54.MaximumSize = new System.Drawing.Size(43, 38);
+            this.pictureBox54.MinimumSize = new System.Drawing.Size(43, 38);
             this.pictureBox54.Name = "pictureBox54";
-            this.pictureBox54.Size = new System.Drawing.Size(48, 48);
+            this.pictureBox54.Size = new System.Drawing.Size(43, 38);
             this.pictureBox54.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox54.TabIndex = 130;
             this.pictureBox54.TabStop = false;
@@ -322,12 +324,12 @@
             // pictureBox53
             // 
             this.pictureBox53.Image = global::Platformer.Properties.Resources.Grass;
-            this.pictureBox53.Location = new System.Drawing.Point(1269, 114);
+            this.pictureBox53.Location = new System.Drawing.Point(1128, 91);
             this.pictureBox53.Margin = new System.Windows.Forms.Padding(0);
-            this.pictureBox53.MaximumSize = new System.Drawing.Size(48, 48);
-            this.pictureBox53.MinimumSize = new System.Drawing.Size(48, 48);
+            this.pictureBox53.MaximumSize = new System.Drawing.Size(43, 38);
+            this.pictureBox53.MinimumSize = new System.Drawing.Size(43, 38);
             this.pictureBox53.Name = "pictureBox53";
-            this.pictureBox53.Size = new System.Drawing.Size(48, 48);
+            this.pictureBox53.Size = new System.Drawing.Size(43, 38);
             this.pictureBox53.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox53.TabIndex = 129;
             this.pictureBox53.TabStop = false;
@@ -336,10 +338,10 @@
             // pictureBox52
             // 
             this.pictureBox52.Image = global::Platformer.Properties.Resources.coin;
-            this.pictureBox52.Location = new System.Drawing.Point(615, 266);
+            this.pictureBox52.Location = new System.Drawing.Point(547, 213);
             this.pictureBox52.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox52.Name = "pictureBox52";
-            this.pictureBox52.Size = new System.Drawing.Size(35, 30);
+            this.pictureBox52.Size = new System.Drawing.Size(31, 24);
             this.pictureBox52.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox52.TabIndex = 128;
             this.pictureBox52.TabStop = false;
@@ -348,10 +350,10 @@
             // pictureBox51
             // 
             this.pictureBox51.Image = global::Platformer.Properties.Resources.coin;
-            this.pictureBox51.Location = new System.Drawing.Point(1063, 170);
+            this.pictureBox51.Location = new System.Drawing.Point(945, 136);
             this.pictureBox51.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox51.Name = "pictureBox51";
-            this.pictureBox51.Size = new System.Drawing.Size(35, 30);
+            this.pictureBox51.Size = new System.Drawing.Size(31, 24);
             this.pictureBox51.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox51.TabIndex = 127;
             this.pictureBox51.TabStop = false;
@@ -360,12 +362,12 @@
             // pictureBox50
             // 
             this.pictureBox50.Image = global::Platformer.Properties.Resources.wood_blox;
-            this.pictureBox50.Location = new System.Drawing.Point(96, 114);
+            this.pictureBox50.Location = new System.Drawing.Point(85, 91);
             this.pictureBox50.Margin = new System.Windows.Forms.Padding(0);
-            this.pictureBox50.MaximumSize = new System.Drawing.Size(48, 48);
-            this.pictureBox50.MinimumSize = new System.Drawing.Size(48, 48);
+            this.pictureBox50.MaximumSize = new System.Drawing.Size(43, 38);
+            this.pictureBox50.MinimumSize = new System.Drawing.Size(43, 38);
             this.pictureBox50.Name = "pictureBox50";
-            this.pictureBox50.Size = new System.Drawing.Size(48, 48);
+            this.pictureBox50.Size = new System.Drawing.Size(43, 38);
             this.pictureBox50.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox50.TabIndex = 126;
             this.pictureBox50.TabStop = false;
@@ -374,12 +376,12 @@
             // pictureBox49
             // 
             this.pictureBox49.Image = global::Platformer.Properties.Resources.wood_blox;
-            this.pictureBox49.Location = new System.Drawing.Point(48, 114);
+            this.pictureBox49.Location = new System.Drawing.Point(43, 91);
             this.pictureBox49.Margin = new System.Windows.Forms.Padding(0);
-            this.pictureBox49.MaximumSize = new System.Drawing.Size(48, 48);
-            this.pictureBox49.MinimumSize = new System.Drawing.Size(48, 48);
+            this.pictureBox49.MaximumSize = new System.Drawing.Size(43, 38);
+            this.pictureBox49.MinimumSize = new System.Drawing.Size(43, 38);
             this.pictureBox49.Name = "pictureBox49";
-            this.pictureBox49.Size = new System.Drawing.Size(48, 48);
+            this.pictureBox49.Size = new System.Drawing.Size(43, 38);
             this.pictureBox49.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox49.TabIndex = 125;
             this.pictureBox49.TabStop = false;
@@ -388,12 +390,12 @@
             // pictureBox48
             // 
             this.pictureBox48.Image = global::Platformer.Properties.Resources.wood_blox;
-            this.pictureBox48.Location = new System.Drawing.Point(0, 114);
+            this.pictureBox48.Location = new System.Drawing.Point(0, 91);
             this.pictureBox48.Margin = new System.Windows.Forms.Padding(0);
-            this.pictureBox48.MaximumSize = new System.Drawing.Size(48, 48);
-            this.pictureBox48.MinimumSize = new System.Drawing.Size(48, 48);
+            this.pictureBox48.MaximumSize = new System.Drawing.Size(43, 38);
+            this.pictureBox48.MinimumSize = new System.Drawing.Size(43, 38);
             this.pictureBox48.Name = "pictureBox48";
-            this.pictureBox48.Size = new System.Drawing.Size(48, 48);
+            this.pictureBox48.Size = new System.Drawing.Size(43, 38);
             this.pictureBox48.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox48.TabIndex = 124;
             this.pictureBox48.TabStop = false;
@@ -402,12 +404,12 @@
             // pictureBox47
             // 
             this.pictureBox47.Image = global::Platformer.Properties.Resources.Grass;
-            this.pictureBox47.Location = new System.Drawing.Point(1015, 440);
+            this.pictureBox47.Location = new System.Drawing.Point(902, 352);
             this.pictureBox47.Margin = new System.Windows.Forms.Padding(0);
-            this.pictureBox47.MaximumSize = new System.Drawing.Size(48, 48);
-            this.pictureBox47.MinimumSize = new System.Drawing.Size(48, 48);
+            this.pictureBox47.MaximumSize = new System.Drawing.Size(43, 38);
+            this.pictureBox47.MinimumSize = new System.Drawing.Size(43, 38);
             this.pictureBox47.Name = "pictureBox47";
-            this.pictureBox47.Size = new System.Drawing.Size(48, 48);
+            this.pictureBox47.Size = new System.Drawing.Size(43, 38);
             this.pictureBox47.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox47.TabIndex = 123;
             this.pictureBox47.TabStop = false;
@@ -416,10 +418,10 @@
             // pictureBox46
             // 
             this.pictureBox46.Image = global::Platformer.Properties.Resources.coin;
-            this.pictureBox46.Location = new System.Drawing.Point(980, 410);
+            this.pictureBox46.Location = new System.Drawing.Point(871, 328);
             this.pictureBox46.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox46.Name = "pictureBox46";
-            this.pictureBox46.Size = new System.Drawing.Size(35, 30);
+            this.pictureBox46.Size = new System.Drawing.Size(31, 24);
             this.pictureBox46.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox46.TabIndex = 122;
             this.pictureBox46.TabStop = false;
@@ -428,10 +430,10 @@
             // pictureBox45
             // 
             this.pictureBox45.Image = global::Platformer.Properties.Resources.coin;
-            this.pictureBox45.Location = new System.Drawing.Point(746, 84);
+            this.pictureBox45.Location = new System.Drawing.Point(663, 67);
             this.pictureBox45.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox45.Name = "pictureBox45";
-            this.pictureBox45.Size = new System.Drawing.Size(35, 30);
+            this.pictureBox45.Size = new System.Drawing.Size(31, 24);
             this.pictureBox45.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox45.TabIndex = 121;
             this.pictureBox45.TabStop = false;
@@ -440,10 +442,10 @@
             // pictureBox44
             // 
             this.pictureBox44.Image = global::Platformer.Properties.Resources.coin;
-            this.pictureBox44.Location = new System.Drawing.Point(698, 84);
+            this.pictureBox44.Location = new System.Drawing.Point(620, 67);
             this.pictureBox44.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox44.Name = "pictureBox44";
-            this.pictureBox44.Size = new System.Drawing.Size(35, 30);
+            this.pictureBox44.Size = new System.Drawing.Size(31, 24);
             this.pictureBox44.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox44.TabIndex = 120;
             this.pictureBox44.TabStop = false;
@@ -452,10 +454,10 @@
             // pictureBox43
             // 
             this.pictureBox43.Image = global::Platformer.Properties.Resources.coin;
-            this.pictureBox43.Location = new System.Drawing.Point(288, 188);
+            this.pictureBox43.Location = new System.Drawing.Point(256, 150);
             this.pictureBox43.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox43.Name = "pictureBox43";
-            this.pictureBox43.Size = new System.Drawing.Size(35, 30);
+            this.pictureBox43.Size = new System.Drawing.Size(31, 24);
             this.pictureBox43.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox43.TabIndex = 119;
             this.pictureBox43.TabStop = false;
@@ -464,10 +466,10 @@
             // pictureBox38
             // 
             this.pictureBox38.Image = global::Platformer.Properties.Resources.coin;
-            this.pictureBox38.Location = new System.Drawing.Point(432, 314);
+            this.pictureBox38.Location = new System.Drawing.Point(384, 251);
             this.pictureBox38.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox38.Name = "pictureBox38";
-            this.pictureBox38.Size = new System.Drawing.Size(35, 30);
+            this.pictureBox38.Size = new System.Drawing.Size(31, 24);
             this.pictureBox38.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox38.TabIndex = 118;
             this.pictureBox38.TabStop = false;
@@ -476,10 +478,10 @@
             // pictureBox30
             // 
             this.pictureBox30.Image = global::Platformer.Properties.Resources.coin;
-            this.pictureBox30.Location = new System.Drawing.Point(157, 408);
+            this.pictureBox30.Location = new System.Drawing.Point(140, 326);
             this.pictureBox30.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox30.Name = "pictureBox30";
-            this.pictureBox30.Size = new System.Drawing.Size(35, 30);
+            this.pictureBox30.Size = new System.Drawing.Size(31, 24);
             this.pictureBox30.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox30.TabIndex = 117;
             this.pictureBox30.TabStop = false;
@@ -488,12 +490,12 @@
             // pictureBox42
             // 
             this.pictureBox42.Image = global::Platformer.Properties.Resources.wood_blox;
-            this.pictureBox42.Location = new System.Drawing.Point(1063, 248);
+            this.pictureBox42.Location = new System.Drawing.Point(945, 198);
             this.pictureBox42.Margin = new System.Windows.Forms.Padding(0);
-            this.pictureBox42.MaximumSize = new System.Drawing.Size(48, 48);
-            this.pictureBox42.MinimumSize = new System.Drawing.Size(48, 48);
+            this.pictureBox42.MaximumSize = new System.Drawing.Size(43, 38);
+            this.pictureBox42.MinimumSize = new System.Drawing.Size(43, 38);
             this.pictureBox42.Name = "pictureBox42";
-            this.pictureBox42.Size = new System.Drawing.Size(48, 48);
+            this.pictureBox42.Size = new System.Drawing.Size(43, 38);
             this.pictureBox42.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox42.TabIndex = 116;
             this.pictureBox42.TabStop = false;
@@ -502,12 +504,12 @@
             // pictureBox41
             // 
             this.pictureBox41.Image = global::Platformer.Properties.Resources.wood_blox;
-            this.pictureBox41.Location = new System.Drawing.Point(1015, 248);
+            this.pictureBox41.Location = new System.Drawing.Point(902, 198);
             this.pictureBox41.Margin = new System.Windows.Forms.Padding(0);
-            this.pictureBox41.MaximumSize = new System.Drawing.Size(48, 48);
-            this.pictureBox41.MinimumSize = new System.Drawing.Size(48, 48);
+            this.pictureBox41.MaximumSize = new System.Drawing.Size(43, 38);
+            this.pictureBox41.MinimumSize = new System.Drawing.Size(43, 38);
             this.pictureBox41.Name = "pictureBox41";
-            this.pictureBox41.Size = new System.Drawing.Size(48, 48);
+            this.pictureBox41.Size = new System.Drawing.Size(43, 38);
             this.pictureBox41.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox41.TabIndex = 115;
             this.pictureBox41.TabStop = false;
@@ -516,12 +518,12 @@
             // pictureBox40
             // 
             this.pictureBox40.Image = global::Platformer.Properties.Resources.wood_blox;
-            this.pictureBox40.Location = new System.Drawing.Point(1063, 200);
+            this.pictureBox40.Location = new System.Drawing.Point(945, 160);
             this.pictureBox40.Margin = new System.Windows.Forms.Padding(0);
-            this.pictureBox40.MaximumSize = new System.Drawing.Size(48, 48);
-            this.pictureBox40.MinimumSize = new System.Drawing.Size(48, 48);
+            this.pictureBox40.MaximumSize = new System.Drawing.Size(43, 38);
+            this.pictureBox40.MinimumSize = new System.Drawing.Size(43, 38);
             this.pictureBox40.Name = "pictureBox40";
-            this.pictureBox40.Size = new System.Drawing.Size(48, 48);
+            this.pictureBox40.Size = new System.Drawing.Size(43, 38);
             this.pictureBox40.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox40.TabIndex = 115;
             this.pictureBox40.TabStop = false;
@@ -530,12 +532,12 @@
             // pictureBox39
             // 
             this.pictureBox39.Image = global::Platformer.Properties.Resources.wood_blox;
-            this.pictureBox39.Location = new System.Drawing.Point(967, 248);
+            this.pictureBox39.Location = new System.Drawing.Point(860, 198);
             this.pictureBox39.Margin = new System.Windows.Forms.Padding(0);
-            this.pictureBox39.MaximumSize = new System.Drawing.Size(48, 48);
-            this.pictureBox39.MinimumSize = new System.Drawing.Size(48, 48);
+            this.pictureBox39.MaximumSize = new System.Drawing.Size(43, 38);
+            this.pictureBox39.MinimumSize = new System.Drawing.Size(43, 38);
             this.pictureBox39.Name = "pictureBox39";
-            this.pictureBox39.Size = new System.Drawing.Size(48, 48);
+            this.pictureBox39.Size = new System.Drawing.Size(43, 38);
             this.pictureBox39.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox39.TabIndex = 114;
             this.pictureBox39.TabStop = false;
@@ -544,12 +546,12 @@
             // pictureBox37
             // 
             this.pictureBox37.Image = global::Platformer.Properties.Resources.wood_blox;
-            this.pictureBox37.Location = new System.Drawing.Point(698, 114);
+            this.pictureBox37.Location = new System.Drawing.Point(620, 91);
             this.pictureBox37.Margin = new System.Windows.Forms.Padding(0);
-            this.pictureBox37.MaximumSize = new System.Drawing.Size(48, 48);
-            this.pictureBox37.MinimumSize = new System.Drawing.Size(48, 48);
+            this.pictureBox37.MaximumSize = new System.Drawing.Size(43, 38);
+            this.pictureBox37.MinimumSize = new System.Drawing.Size(43, 38);
             this.pictureBox37.Name = "pictureBox37";
-            this.pictureBox37.Size = new System.Drawing.Size(48, 48);
+            this.pictureBox37.Size = new System.Drawing.Size(43, 38);
             this.pictureBox37.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox37.TabIndex = 112;
             this.pictureBox37.TabStop = false;
@@ -558,12 +560,12 @@
             // pictureBox36
             // 
             this.pictureBox36.Image = global::Platformer.Properties.Resources.wood_blox;
-            this.pictureBox36.Location = new System.Drawing.Point(746, 114);
+            this.pictureBox36.Location = new System.Drawing.Point(663, 91);
             this.pictureBox36.Margin = new System.Windows.Forms.Padding(0);
-            this.pictureBox36.MaximumSize = new System.Drawing.Size(48, 48);
-            this.pictureBox36.MinimumSize = new System.Drawing.Size(48, 48);
+            this.pictureBox36.MaximumSize = new System.Drawing.Size(43, 38);
+            this.pictureBox36.MinimumSize = new System.Drawing.Size(43, 38);
             this.pictureBox36.Name = "pictureBox36";
-            this.pictureBox36.Size = new System.Drawing.Size(48, 48);
+            this.pictureBox36.Size = new System.Drawing.Size(43, 38);
             this.pictureBox36.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox36.TabIndex = 111;
             this.pictureBox36.TabStop = false;
@@ -572,12 +574,12 @@
             // pictureBox35
             // 
             this.pictureBox35.Image = global::Platformer.Properties.Resources.wood_blox;
-            this.pictureBox35.Location = new System.Drawing.Point(698, 162);
+            this.pictureBox35.Location = new System.Drawing.Point(620, 130);
             this.pictureBox35.Margin = new System.Windows.Forms.Padding(0);
-            this.pictureBox35.MaximumSize = new System.Drawing.Size(48, 48);
-            this.pictureBox35.MinimumSize = new System.Drawing.Size(48, 48);
+            this.pictureBox35.MaximumSize = new System.Drawing.Size(43, 38);
+            this.pictureBox35.MinimumSize = new System.Drawing.Size(43, 38);
             this.pictureBox35.Name = "pictureBox35";
-            this.pictureBox35.Size = new System.Drawing.Size(48, 48);
+            this.pictureBox35.Size = new System.Drawing.Size(43, 38);
             this.pictureBox35.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox35.TabIndex = 110;
             this.pictureBox35.TabStop = false;
@@ -586,12 +588,12 @@
             // pictureBox34
             // 
             this.pictureBox34.Image = global::Platformer.Properties.Resources.wood_blox;
-            this.pictureBox34.Location = new System.Drawing.Point(650, 162);
+            this.pictureBox34.Location = new System.Drawing.Point(578, 130);
             this.pictureBox34.Margin = new System.Windows.Forms.Padding(0);
-            this.pictureBox34.MaximumSize = new System.Drawing.Size(48, 48);
-            this.pictureBox34.MinimumSize = new System.Drawing.Size(48, 48);
+            this.pictureBox34.MaximumSize = new System.Drawing.Size(43, 38);
+            this.pictureBox34.MinimumSize = new System.Drawing.Size(43, 38);
             this.pictureBox34.Name = "pictureBox34";
-            this.pictureBox34.Size = new System.Drawing.Size(48, 48);
+            this.pictureBox34.Size = new System.Drawing.Size(43, 38);
             this.pictureBox34.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox34.TabIndex = 109;
             this.pictureBox34.TabStop = false;
@@ -600,12 +602,12 @@
             // pictureBox33
             // 
             this.pictureBox33.Image = global::Platformer.Properties.Resources.wood_blox;
-            this.pictureBox33.Location = new System.Drawing.Point(602, 162);
+            this.pictureBox33.Location = new System.Drawing.Point(535, 130);
             this.pictureBox33.Margin = new System.Windows.Forms.Padding(0);
-            this.pictureBox33.MaximumSize = new System.Drawing.Size(48, 48);
-            this.pictureBox33.MinimumSize = new System.Drawing.Size(48, 48);
+            this.pictureBox33.MaximumSize = new System.Drawing.Size(43, 38);
+            this.pictureBox33.MinimumSize = new System.Drawing.Size(43, 38);
             this.pictureBox33.Name = "pictureBox33";
-            this.pictureBox33.Size = new System.Drawing.Size(48, 48);
+            this.pictureBox33.Size = new System.Drawing.Size(43, 38);
             this.pictureBox33.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox33.TabIndex = 108;
             this.pictureBox33.TabStop = false;
@@ -614,12 +616,12 @@
             // pictureBox32
             // 
             this.pictureBox32.Image = global::Platformer.Properties.Resources.wood_blox;
-            this.pictureBox32.Location = new System.Drawing.Point(650, 296);
+            this.pictureBox32.Location = new System.Drawing.Point(578, 237);
             this.pictureBox32.Margin = new System.Windows.Forms.Padding(0);
-            this.pictureBox32.MaximumSize = new System.Drawing.Size(48, 48);
-            this.pictureBox32.MinimumSize = new System.Drawing.Size(48, 48);
+            this.pictureBox32.MaximumSize = new System.Drawing.Size(43, 38);
+            this.pictureBox32.MinimumSize = new System.Drawing.Size(43, 38);
             this.pictureBox32.Name = "pictureBox32";
-            this.pictureBox32.Size = new System.Drawing.Size(48, 48);
+            this.pictureBox32.Size = new System.Drawing.Size(43, 38);
             this.pictureBox32.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox32.TabIndex = 107;
             this.pictureBox32.TabStop = false;
@@ -628,12 +630,12 @@
             // pictureBox31
             // 
             this.pictureBox31.Image = global::Platformer.Properties.Resources.wood_blox;
-            this.pictureBox31.Location = new System.Drawing.Point(602, 296);
+            this.pictureBox31.Location = new System.Drawing.Point(535, 237);
             this.pictureBox31.Margin = new System.Windows.Forms.Padding(0);
-            this.pictureBox31.MaximumSize = new System.Drawing.Size(48, 48);
-            this.pictureBox31.MinimumSize = new System.Drawing.Size(48, 48);
+            this.pictureBox31.MaximumSize = new System.Drawing.Size(43, 38);
+            this.pictureBox31.MinimumSize = new System.Drawing.Size(43, 38);
             this.pictureBox31.Name = "pictureBox31";
-            this.pictureBox31.Size = new System.Drawing.Size(48, 48);
+            this.pictureBox31.Size = new System.Drawing.Size(43, 38);
             this.pictureBox31.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox31.TabIndex = 106;
             this.pictureBox31.TabStop = false;
@@ -642,12 +644,12 @@
             // pictureBox29
             // 
             this.pictureBox29.Image = global::Platformer.Properties.Resources.wood_blox;
-            this.pictureBox29.Location = new System.Drawing.Point(919, 392);
+            this.pictureBox29.Location = new System.Drawing.Point(817, 314);
             this.pictureBox29.Margin = new System.Windows.Forms.Padding(0);
-            this.pictureBox29.MaximumSize = new System.Drawing.Size(48, 48);
-            this.pictureBox29.MinimumSize = new System.Drawing.Size(48, 48);
+            this.pictureBox29.MaximumSize = new System.Drawing.Size(43, 38);
+            this.pictureBox29.MinimumSize = new System.Drawing.Size(43, 38);
             this.pictureBox29.Name = "pictureBox29";
-            this.pictureBox29.Size = new System.Drawing.Size(48, 48);
+            this.pictureBox29.Size = new System.Drawing.Size(43, 38);
             this.pictureBox29.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox29.TabIndex = 104;
             this.pictureBox29.TabStop = false;
@@ -656,12 +658,12 @@
             // pictureBox28
             // 
             this.pictureBox28.Image = global::Platformer.Properties.Resources.Grass;
-            this.pictureBox28.Location = new System.Drawing.Point(871, 344);
+            this.pictureBox28.Location = new System.Drawing.Point(774, 275);
             this.pictureBox28.Margin = new System.Windows.Forms.Padding(0);
-            this.pictureBox28.MaximumSize = new System.Drawing.Size(48, 48);
-            this.pictureBox28.MinimumSize = new System.Drawing.Size(48, 48);
+            this.pictureBox28.MaximumSize = new System.Drawing.Size(43, 38);
+            this.pictureBox28.MinimumSize = new System.Drawing.Size(43, 38);
             this.pictureBox28.Name = "pictureBox28";
-            this.pictureBox28.Size = new System.Drawing.Size(48, 48);
+            this.pictureBox28.Size = new System.Drawing.Size(43, 38);
             this.pictureBox28.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox28.TabIndex = 103;
             this.pictureBox28.TabStop = false;
@@ -670,12 +672,12 @@
             // pictureBox27
             // 
             this.pictureBox27.Image = global::Platformer.Properties.Resources.Grass;
-            this.pictureBox27.Location = new System.Drawing.Point(967, 438);
+            this.pictureBox27.Location = new System.Drawing.Point(860, 350);
             this.pictureBox27.Margin = new System.Windows.Forms.Padding(0);
-            this.pictureBox27.MaximumSize = new System.Drawing.Size(48, 48);
-            this.pictureBox27.MinimumSize = new System.Drawing.Size(48, 48);
+            this.pictureBox27.MaximumSize = new System.Drawing.Size(43, 38);
+            this.pictureBox27.MinimumSize = new System.Drawing.Size(43, 38);
             this.pictureBox27.Name = "pictureBox27";
-            this.pictureBox27.Size = new System.Drawing.Size(48, 48);
+            this.pictureBox27.Size = new System.Drawing.Size(43, 38);
             this.pictureBox27.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox27.TabIndex = 102;
             this.pictureBox27.TabStop = false;
@@ -684,12 +686,12 @@
             // pictureBox26
             // 
             this.pictureBox26.Image = global::Platformer.Properties.Resources.Grass;
-            this.pictureBox26.Location = new System.Drawing.Point(823, 390);
+            this.pictureBox26.Location = new System.Drawing.Point(732, 312);
             this.pictureBox26.Margin = new System.Windows.Forms.Padding(0);
-            this.pictureBox26.MaximumSize = new System.Drawing.Size(48, 48);
-            this.pictureBox26.MinimumSize = new System.Drawing.Size(48, 48);
+            this.pictureBox26.MaximumSize = new System.Drawing.Size(43, 38);
+            this.pictureBox26.MinimumSize = new System.Drawing.Size(43, 38);
             this.pictureBox26.Name = "pictureBox26";
-            this.pictureBox26.Size = new System.Drawing.Size(48, 48);
+            this.pictureBox26.Size = new System.Drawing.Size(43, 38);
             this.pictureBox26.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox26.TabIndex = 101;
             this.pictureBox26.TabStop = false;
@@ -698,12 +700,12 @@
             // pictureBox25
             // 
             this.pictureBox25.Image = global::Platformer.Properties.Resources.Grass;
-            this.pictureBox25.Location = new System.Drawing.Point(871, 390);
+            this.pictureBox25.Location = new System.Drawing.Point(774, 312);
             this.pictureBox25.Margin = new System.Windows.Forms.Padding(0);
-            this.pictureBox25.MaximumSize = new System.Drawing.Size(48, 48);
-            this.pictureBox25.MinimumSize = new System.Drawing.Size(48, 48);
+            this.pictureBox25.MaximumSize = new System.Drawing.Size(43, 38);
+            this.pictureBox25.MinimumSize = new System.Drawing.Size(43, 38);
             this.pictureBox25.Name = "pictureBox25";
-            this.pictureBox25.Size = new System.Drawing.Size(48, 48);
+            this.pictureBox25.Size = new System.Drawing.Size(43, 38);
             this.pictureBox25.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox25.TabIndex = 100;
             this.pictureBox25.TabStop = false;
@@ -712,12 +714,12 @@
             // pictureBox24
             // 
             this.pictureBox24.Image = global::Platformer.Properties.Resources.Grass;
-            this.pictureBox24.Location = new System.Drawing.Point(336, 392);
+            this.pictureBox24.Location = new System.Drawing.Point(299, 314);
             this.pictureBox24.Margin = new System.Windows.Forms.Padding(0);
-            this.pictureBox24.MaximumSize = new System.Drawing.Size(48, 48);
-            this.pictureBox24.MinimumSize = new System.Drawing.Size(48, 48);
+            this.pictureBox24.MaximumSize = new System.Drawing.Size(43, 38);
+            this.pictureBox24.MinimumSize = new System.Drawing.Size(43, 38);
             this.pictureBox24.Name = "pictureBox24";
-            this.pictureBox24.Size = new System.Drawing.Size(48, 48);
+            this.pictureBox24.Size = new System.Drawing.Size(43, 38);
             this.pictureBox24.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox24.TabIndex = 99;
             this.pictureBox24.TabStop = false;
@@ -726,12 +728,12 @@
             // pictureBox23
             // 
             this.pictureBox23.Image = global::Platformer.Properties.Resources.Grass;
-            this.pictureBox23.Location = new System.Drawing.Point(384, 392);
+            this.pictureBox23.Location = new System.Drawing.Point(341, 314);
             this.pictureBox23.Margin = new System.Windows.Forms.Padding(0);
-            this.pictureBox23.MaximumSize = new System.Drawing.Size(48, 48);
-            this.pictureBox23.MinimumSize = new System.Drawing.Size(48, 48);
+            this.pictureBox23.MaximumSize = new System.Drawing.Size(43, 38);
+            this.pictureBox23.MinimumSize = new System.Drawing.Size(43, 38);
             this.pictureBox23.Name = "pictureBox23";
-            this.pictureBox23.Size = new System.Drawing.Size(48, 48);
+            this.pictureBox23.Size = new System.Drawing.Size(43, 38);
             this.pictureBox23.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox23.TabIndex = 98;
             this.pictureBox23.TabStop = false;
@@ -740,12 +742,12 @@
             // pictureBox22
             // 
             this.pictureBox22.Image = global::Platformer.Properties.Resources.Grass;
-            this.pictureBox22.Location = new System.Drawing.Point(727, 438);
+            this.pictureBox22.Location = new System.Drawing.Point(646, 350);
             this.pictureBox22.Margin = new System.Windows.Forms.Padding(0);
-            this.pictureBox22.MaximumSize = new System.Drawing.Size(48, 48);
-            this.pictureBox22.MinimumSize = new System.Drawing.Size(48, 48);
+            this.pictureBox22.MaximumSize = new System.Drawing.Size(43, 38);
+            this.pictureBox22.MinimumSize = new System.Drawing.Size(43, 38);
             this.pictureBox22.Name = "pictureBox22";
-            this.pictureBox22.Size = new System.Drawing.Size(48, 48);
+            this.pictureBox22.Size = new System.Drawing.Size(43, 38);
             this.pictureBox22.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox22.TabIndex = 97;
             this.pictureBox22.TabStop = false;
@@ -754,12 +756,12 @@
             // pictureBox21
             // 
             this.pictureBox21.Image = global::Platformer.Properties.Resources.Grass;
-            this.pictureBox21.Location = new System.Drawing.Point(919, 438);
+            this.pictureBox21.Location = new System.Drawing.Point(817, 350);
             this.pictureBox21.Margin = new System.Windows.Forms.Padding(0);
-            this.pictureBox21.MaximumSize = new System.Drawing.Size(48, 48);
-            this.pictureBox21.MinimumSize = new System.Drawing.Size(48, 48);
+            this.pictureBox21.MaximumSize = new System.Drawing.Size(43, 38);
+            this.pictureBox21.MinimumSize = new System.Drawing.Size(43, 38);
             this.pictureBox21.Name = "pictureBox21";
-            this.pictureBox21.Size = new System.Drawing.Size(48, 48);
+            this.pictureBox21.Size = new System.Drawing.Size(43, 38);
             this.pictureBox21.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox21.TabIndex = 96;
             this.pictureBox21.TabStop = false;
@@ -768,12 +770,12 @@
             // pictureBox20
             // 
             this.pictureBox20.Image = global::Platformer.Properties.Resources.Grass;
-            this.pictureBox20.Location = new System.Drawing.Point(871, 438);
+            this.pictureBox20.Location = new System.Drawing.Point(774, 350);
             this.pictureBox20.Margin = new System.Windows.Forms.Padding(0);
-            this.pictureBox20.MaximumSize = new System.Drawing.Size(48, 48);
-            this.pictureBox20.MinimumSize = new System.Drawing.Size(48, 48);
+            this.pictureBox20.MaximumSize = new System.Drawing.Size(43, 38);
+            this.pictureBox20.MinimumSize = new System.Drawing.Size(43, 38);
             this.pictureBox20.Name = "pictureBox20";
-            this.pictureBox20.Size = new System.Drawing.Size(48, 48);
+            this.pictureBox20.Size = new System.Drawing.Size(43, 38);
             this.pictureBox20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox20.TabIndex = 95;
             this.pictureBox20.TabStop = false;
@@ -782,12 +784,12 @@
             // pictureBox19
             // 
             this.pictureBox19.Image = global::Platformer.Properties.Resources.Grass;
-            this.pictureBox19.Location = new System.Drawing.Point(823, 438);
+            this.pictureBox19.Location = new System.Drawing.Point(732, 350);
             this.pictureBox19.Margin = new System.Windows.Forms.Padding(0);
-            this.pictureBox19.MaximumSize = new System.Drawing.Size(48, 48);
-            this.pictureBox19.MinimumSize = new System.Drawing.Size(48, 48);
+            this.pictureBox19.MaximumSize = new System.Drawing.Size(43, 38);
+            this.pictureBox19.MinimumSize = new System.Drawing.Size(43, 38);
             this.pictureBox19.Name = "pictureBox19";
-            this.pictureBox19.Size = new System.Drawing.Size(48, 48);
+            this.pictureBox19.Size = new System.Drawing.Size(43, 38);
             this.pictureBox19.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox19.TabIndex = 94;
             this.pictureBox19.TabStop = false;
@@ -796,12 +798,12 @@
             // pictureBox18
             // 
             this.pictureBox18.Image = global::Platformer.Properties.Resources.Grass;
-            this.pictureBox18.Location = new System.Drawing.Point(775, 438);
+            this.pictureBox18.Location = new System.Drawing.Point(689, 350);
             this.pictureBox18.Margin = new System.Windows.Forms.Padding(0);
-            this.pictureBox18.MaximumSize = new System.Drawing.Size(48, 48);
-            this.pictureBox18.MinimumSize = new System.Drawing.Size(48, 48);
+            this.pictureBox18.MaximumSize = new System.Drawing.Size(43, 38);
+            this.pictureBox18.MinimumSize = new System.Drawing.Size(43, 38);
             this.pictureBox18.Name = "pictureBox18";
-            this.pictureBox18.Size = new System.Drawing.Size(48, 48);
+            this.pictureBox18.Size = new System.Drawing.Size(43, 38);
             this.pictureBox18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox18.TabIndex = 93;
             this.pictureBox18.TabStop = false;
@@ -810,12 +812,12 @@
             // pictureBox17
             // 
             this.pictureBox17.Image = global::Platformer.Properties.Resources.wood_blox;
-            this.pictureBox17.Location = new System.Drawing.Point(432, 344);
+            this.pictureBox17.Location = new System.Drawing.Point(384, 275);
             this.pictureBox17.Margin = new System.Windows.Forms.Padding(0);
-            this.pictureBox17.MaximumSize = new System.Drawing.Size(48, 48);
-            this.pictureBox17.MinimumSize = new System.Drawing.Size(48, 48);
+            this.pictureBox17.MaximumSize = new System.Drawing.Size(43, 38);
+            this.pictureBox17.MinimumSize = new System.Drawing.Size(43, 38);
             this.pictureBox17.Name = "pictureBox17";
-            this.pictureBox17.Size = new System.Drawing.Size(48, 48);
+            this.pictureBox17.Size = new System.Drawing.Size(43, 38);
             this.pictureBox17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox17.TabIndex = 92;
             this.pictureBox17.TabStop = false;
@@ -824,12 +826,12 @@
             // pictureBox16
             // 
             this.pictureBox16.Image = global::Platformer.Properties.Resources.wood_blox;
-            this.pictureBox16.Location = new System.Drawing.Point(237, 218);
+            this.pictureBox16.Location = new System.Drawing.Point(211, 174);
             this.pictureBox16.Margin = new System.Windows.Forms.Padding(0);
-            this.pictureBox16.MaximumSize = new System.Drawing.Size(48, 48);
-            this.pictureBox16.MinimumSize = new System.Drawing.Size(48, 48);
+            this.pictureBox16.MaximumSize = new System.Drawing.Size(43, 38);
+            this.pictureBox16.MinimumSize = new System.Drawing.Size(43, 38);
             this.pictureBox16.Name = "pictureBox16";
-            this.pictureBox16.Size = new System.Drawing.Size(48, 48);
+            this.pictureBox16.Size = new System.Drawing.Size(43, 38);
             this.pictureBox16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox16.TabIndex = 91;
             this.pictureBox16.TabStop = false;
@@ -838,12 +840,12 @@
             // pictureBox15
             // 
             this.pictureBox15.Image = global::Platformer.Properties.Resources.wood_blox;
-            this.pictureBox15.Location = new System.Drawing.Point(480, 438);
+            this.pictureBox15.Location = new System.Drawing.Point(427, 350);
             this.pictureBox15.Margin = new System.Windows.Forms.Padding(0);
-            this.pictureBox15.MaximumSize = new System.Drawing.Size(48, 48);
-            this.pictureBox15.MinimumSize = new System.Drawing.Size(48, 48);
+            this.pictureBox15.MaximumSize = new System.Drawing.Size(43, 38);
+            this.pictureBox15.MinimumSize = new System.Drawing.Size(43, 38);
             this.pictureBox15.Name = "pictureBox15";
-            this.pictureBox15.Size = new System.Drawing.Size(48, 48);
+            this.pictureBox15.Size = new System.Drawing.Size(43, 38);
             this.pictureBox15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox15.TabIndex = 90;
             this.pictureBox15.TabStop = false;
@@ -852,12 +854,12 @@
             // pictureBox14
             // 
             this.pictureBox14.Image = global::Platformer.Properties.Resources.wood_blox;
-            this.pictureBox14.Location = new System.Drawing.Point(432, 438);
+            this.pictureBox14.Location = new System.Drawing.Point(384, 350);
             this.pictureBox14.Margin = new System.Windows.Forms.Padding(0);
-            this.pictureBox14.MaximumSize = new System.Drawing.Size(48, 48);
-            this.pictureBox14.MinimumSize = new System.Drawing.Size(48, 48);
+            this.pictureBox14.MaximumSize = new System.Drawing.Size(43, 38);
+            this.pictureBox14.MinimumSize = new System.Drawing.Size(43, 38);
             this.pictureBox14.Name = "pictureBox14";
-            this.pictureBox14.Size = new System.Drawing.Size(48, 48);
+            this.pictureBox14.Size = new System.Drawing.Size(43, 38);
             this.pictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox14.TabIndex = 89;
             this.pictureBox14.TabStop = false;
@@ -866,12 +868,12 @@
             // pictureBox13
             // 
             this.pictureBox13.Image = global::Platformer.Properties.Resources.wood_blox;
-            this.pictureBox13.Location = new System.Drawing.Point(432, 392);
+            this.pictureBox13.Location = new System.Drawing.Point(384, 314);
             this.pictureBox13.Margin = new System.Windows.Forms.Padding(0);
-            this.pictureBox13.MaximumSize = new System.Drawing.Size(48, 48);
-            this.pictureBox13.MinimumSize = new System.Drawing.Size(48, 48);
+            this.pictureBox13.MaximumSize = new System.Drawing.Size(43, 38);
+            this.pictureBox13.MinimumSize = new System.Drawing.Size(43, 38);
             this.pictureBox13.Name = "pictureBox13";
-            this.pictureBox13.Size = new System.Drawing.Size(48, 48);
+            this.pictureBox13.Size = new System.Drawing.Size(43, 38);
             this.pictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox13.TabIndex = 88;
             this.pictureBox13.TabStop = false;
@@ -880,12 +882,12 @@
             // pictureBox12
             // 
             this.pictureBox12.Image = global::Platformer.Properties.Resources.wood_blox;
-            this.pictureBox12.Location = new System.Drawing.Point(333, 218);
+            this.pictureBox12.Location = new System.Drawing.Point(296, 174);
             this.pictureBox12.Margin = new System.Windows.Forms.Padding(0);
-            this.pictureBox12.MaximumSize = new System.Drawing.Size(48, 48);
-            this.pictureBox12.MinimumSize = new System.Drawing.Size(48, 48);
+            this.pictureBox12.MaximumSize = new System.Drawing.Size(43, 38);
+            this.pictureBox12.MinimumSize = new System.Drawing.Size(43, 38);
             this.pictureBox12.Name = "pictureBox12";
-            this.pictureBox12.Size = new System.Drawing.Size(48, 48);
+            this.pictureBox12.Size = new System.Drawing.Size(43, 38);
             this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox12.TabIndex = 87;
             this.pictureBox12.TabStop = false;
@@ -894,12 +896,12 @@
             // pictureBox7
             // 
             this.pictureBox7.Image = global::Platformer.Properties.Resources.wood_blox;
-            this.pictureBox7.Location = new System.Drawing.Point(285, 218);
+            this.pictureBox7.Location = new System.Drawing.Point(253, 174);
             this.pictureBox7.Margin = new System.Windows.Forms.Padding(0);
-            this.pictureBox7.MaximumSize = new System.Drawing.Size(48, 48);
-            this.pictureBox7.MinimumSize = new System.Drawing.Size(48, 48);
+            this.pictureBox7.MaximumSize = new System.Drawing.Size(43, 38);
+            this.pictureBox7.MinimumSize = new System.Drawing.Size(43, 38);
             this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(48, 48);
+            this.pictureBox7.Size = new System.Drawing.Size(43, 38);
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox7.TabIndex = 86;
             this.pictureBox7.TabStop = false;
@@ -908,12 +910,12 @@
             // pictureBox11
             // 
             this.pictureBox11.Image = global::Platformer.Properties.Resources.Grass;
-            this.pictureBox11.Location = new System.Drawing.Point(384, 438);
+            this.pictureBox11.Location = new System.Drawing.Point(341, 350);
             this.pictureBox11.Margin = new System.Windows.Forms.Padding(0);
-            this.pictureBox11.MaximumSize = new System.Drawing.Size(48, 48);
-            this.pictureBox11.MinimumSize = new System.Drawing.Size(48, 48);
+            this.pictureBox11.MaximumSize = new System.Drawing.Size(43, 38);
+            this.pictureBox11.MinimumSize = new System.Drawing.Size(43, 38);
             this.pictureBox11.Name = "pictureBox11";
-            this.pictureBox11.Size = new System.Drawing.Size(48, 48);
+            this.pictureBox11.Size = new System.Drawing.Size(43, 38);
             this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox11.TabIndex = 85;
             this.pictureBox11.TabStop = false;
@@ -922,12 +924,12 @@
             // pictureBox10
             // 
             this.pictureBox10.Image = global::Platformer.Properties.Resources.Grass;
-            this.pictureBox10.Location = new System.Drawing.Point(336, 438);
+            this.pictureBox10.Location = new System.Drawing.Point(299, 350);
             this.pictureBox10.Margin = new System.Windows.Forms.Padding(0);
-            this.pictureBox10.MaximumSize = new System.Drawing.Size(48, 48);
-            this.pictureBox10.MinimumSize = new System.Drawing.Size(48, 48);
+            this.pictureBox10.MaximumSize = new System.Drawing.Size(43, 38);
+            this.pictureBox10.MinimumSize = new System.Drawing.Size(43, 38);
             this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(48, 48);
+            this.pictureBox10.Size = new System.Drawing.Size(43, 38);
             this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox10.TabIndex = 84;
             this.pictureBox10.TabStop = false;
@@ -936,12 +938,12 @@
             // pictureBox9
             // 
             this.pictureBox9.Image = global::Platformer.Properties.Resources.Grass;
-            this.pictureBox9.Location = new System.Drawing.Point(288, 438);
+            this.pictureBox9.Location = new System.Drawing.Point(256, 350);
             this.pictureBox9.Margin = new System.Windows.Forms.Padding(0);
-            this.pictureBox9.MaximumSize = new System.Drawing.Size(48, 48);
-            this.pictureBox9.MinimumSize = new System.Drawing.Size(48, 48);
+            this.pictureBox9.MaximumSize = new System.Drawing.Size(43, 38);
+            this.pictureBox9.MinimumSize = new System.Drawing.Size(43, 38);
             this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(48, 48);
+            this.pictureBox9.Size = new System.Drawing.Size(43, 38);
             this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox9.TabIndex = 83;
             this.pictureBox9.TabStop = false;
@@ -950,12 +952,12 @@
             // pictureBox6
             // 
             this.pictureBox6.Image = global::Platformer.Properties.Resources.Grass;
-            this.pictureBox6.Location = new System.Drawing.Point(240, 438);
+            this.pictureBox6.Location = new System.Drawing.Point(213, 350);
             this.pictureBox6.Margin = new System.Windows.Forms.Padding(0);
-            this.pictureBox6.MaximumSize = new System.Drawing.Size(48, 48);
-            this.pictureBox6.MinimumSize = new System.Drawing.Size(48, 48);
+            this.pictureBox6.MaximumSize = new System.Drawing.Size(43, 38);
+            this.pictureBox6.MinimumSize = new System.Drawing.Size(43, 38);
             this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(48, 48);
+            this.pictureBox6.Size = new System.Drawing.Size(43, 38);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox6.TabIndex = 80;
             this.pictureBox6.TabStop = false;
@@ -964,12 +966,12 @@
             // pictureBox5
             // 
             this.pictureBox5.Image = global::Platformer.Properties.Resources.Grass;
-            this.pictureBox5.Location = new System.Drawing.Point(192, 438);
+            this.pictureBox5.Location = new System.Drawing.Point(171, 350);
             this.pictureBox5.Margin = new System.Windows.Forms.Padding(0);
-            this.pictureBox5.MaximumSize = new System.Drawing.Size(48, 48);
-            this.pictureBox5.MinimumSize = new System.Drawing.Size(48, 48);
+            this.pictureBox5.MaximumSize = new System.Drawing.Size(43, 38);
+            this.pictureBox5.MinimumSize = new System.Drawing.Size(43, 38);
             this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(48, 48);
+            this.pictureBox5.Size = new System.Drawing.Size(43, 38);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox5.TabIndex = 79;
             this.pictureBox5.TabStop = false;
@@ -978,12 +980,12 @@
             // pictureBox4
             // 
             this.pictureBox4.Image = global::Platformer.Properties.Resources.Grass;
-            this.pictureBox4.Location = new System.Drawing.Point(144, 438);
+            this.pictureBox4.Location = new System.Drawing.Point(128, 350);
             this.pictureBox4.Margin = new System.Windows.Forms.Padding(0);
-            this.pictureBox4.MaximumSize = new System.Drawing.Size(48, 48);
-            this.pictureBox4.MinimumSize = new System.Drawing.Size(48, 48);
+            this.pictureBox4.MaximumSize = new System.Drawing.Size(43, 38);
+            this.pictureBox4.MinimumSize = new System.Drawing.Size(43, 38);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(48, 48);
+            this.pictureBox4.Size = new System.Drawing.Size(43, 38);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox4.TabIndex = 78;
             this.pictureBox4.TabStop = false;
@@ -992,12 +994,12 @@
             // pictureBox3
             // 
             this.pictureBox3.Image = global::Platformer.Properties.Resources.Grass;
-            this.pictureBox3.Location = new System.Drawing.Point(96, 438);
+            this.pictureBox3.Location = new System.Drawing.Point(85, 350);
             this.pictureBox3.Margin = new System.Windows.Forms.Padding(0);
-            this.pictureBox3.MaximumSize = new System.Drawing.Size(48, 48);
-            this.pictureBox3.MinimumSize = new System.Drawing.Size(48, 48);
+            this.pictureBox3.MaximumSize = new System.Drawing.Size(43, 38);
+            this.pictureBox3.MinimumSize = new System.Drawing.Size(43, 38);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(48, 48);
+            this.pictureBox3.Size = new System.Drawing.Size(43, 38);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 77;
             this.pictureBox3.TabStop = false;
@@ -1006,12 +1008,12 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = global::Platformer.Properties.Resources.Grass;
-            this.pictureBox2.Location = new System.Drawing.Point(48, 438);
+            this.pictureBox2.Location = new System.Drawing.Point(43, 350);
             this.pictureBox2.Margin = new System.Windows.Forms.Padding(0);
-            this.pictureBox2.MaximumSize = new System.Drawing.Size(48, 48);
-            this.pictureBox2.MinimumSize = new System.Drawing.Size(48, 48);
+            this.pictureBox2.MaximumSize = new System.Drawing.Size(43, 38);
+            this.pictureBox2.MinimumSize = new System.Drawing.Size(43, 38);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(48, 48);
+            this.pictureBox2.Size = new System.Drawing.Size(43, 38);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 76;
             this.pictureBox2.TabStop = false;
@@ -1020,12 +1022,12 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::Platformer.Properties.Resources.Grass;
-            this.pictureBox1.Location = new System.Drawing.Point(0, 438);
+            this.pictureBox1.Location = new System.Drawing.Point(0, 350);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(0);
-            this.pictureBox1.MaximumSize = new System.Drawing.Size(48, 48);
-            this.pictureBox1.MinimumSize = new System.Drawing.Size(48, 48);
+            this.pictureBox1.MaximumSize = new System.Drawing.Size(43, 38);
+            this.pictureBox1.MinimumSize = new System.Drawing.Size(43, 38);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(48, 48);
+            this.pictureBox1.Size = new System.Drawing.Size(43, 38);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 75;
             this.pictureBox1.TabStop = false;
@@ -1034,10 +1036,10 @@
             // player
             // 
             this.player.Image = global::Platformer.Properties.Resources.stand11;
-            this.player.Location = new System.Drawing.Point(18, 369);
+            this.player.Location = new System.Drawing.Point(16, 295);
             this.player.Margin = new System.Windows.Forms.Padding(0);
             this.player.Name = "player";
-            this.player.Size = new System.Drawing.Size(30, 69);
+            this.player.Size = new System.Drawing.Size(27, 55);
             this.player.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.player.TabIndex = 69;
             this.player.TabStop = false;
@@ -1046,10 +1048,10 @@
             // background
             // 
             this.background.Image = global::Platformer.Properties.Resources.background_1;
-            this.background.Location = new System.Drawing.Point(-200, 0);
+            this.background.Location = new System.Drawing.Point(-178, 0);
             this.background.Margin = new System.Windows.Forms.Padding(0);
             this.background.Name = "background";
-            this.background.Size = new System.Drawing.Size(1920, 500);
+            this.background.Size = new System.Drawing.Size(1707, 400);
             this.background.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.background.TabIndex = 0;
             this.background.TabStop = false;
@@ -1059,9 +1061,10 @@
             // 
             this.heart2.BackColor = System.Drawing.Color.LightSkyBlue;
             this.heart2.Image = global::Platformer.Properties.Resources.life;
-            this.heart2.Location = new System.Drawing.Point(550, 12);
+            this.heart2.Location = new System.Drawing.Point(489, 10);
+            this.heart2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.heart2.Name = "heart2";
-            this.heart2.Size = new System.Drawing.Size(25, 25);
+            this.heart2.Size = new System.Drawing.Size(22, 20);
             this.heart2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.heart2.TabIndex = 141;
             this.heart2.TabStop = false;
@@ -1071,9 +1074,10 @@
             // 
             this.heart1.BackColor = System.Drawing.Color.LightSkyBlue;
             this.heart1.Image = global::Platformer.Properties.Resources.life;
-            this.heart1.Location = new System.Drawing.Point(519, 12);
+            this.heart1.Location = new System.Drawing.Point(461, 10);
+            this.heart1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.heart1.Name = "heart1";
-            this.heart1.Size = new System.Drawing.Size(25, 25);
+            this.heart1.Size = new System.Drawing.Size(22, 20);
             this.heart1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.heart1.TabIndex = 142;
             this.heart1.TabStop = false;
@@ -1081,9 +1085,9 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(618, 484);
+            this.ClientSize = new System.Drawing.Size(549, 387);
             this.Controls.Add(this.heart1);
             this.Controls.Add(this.heart2);
             this.Controls.Add(this.heart3);
@@ -1151,6 +1155,7 @@
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.player);
             this.Controls.Add(this.background);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Form1";
             this.Text = "Form1";
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.keyisdown);

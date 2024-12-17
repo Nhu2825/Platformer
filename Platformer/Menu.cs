@@ -43,5 +43,10 @@ namespace Platformer
             this.Hide();
             frm.ShowDialog();
         }
+
+        private void Menu_Paint(object sender, PaintEventArgs e)
+        {
+            e.Graphics.DrawImage(Properties.Resources._1006406251_1_, 0,0);    
+        }
     }
 }
